@@ -1,0 +1,67 @@
+.container {
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 3px 2px 20px 13px #ccc;
+    height: 600px;
+    border-radius: 6px 6px;
+}
+
+.box-container {
+    width: 100%;
+}
+
+.box {
+    width: 48%;
+    float: left;
+}
+
+.bg-green {
+    background:  linear-gradient(326deg,rgba(2, 41, 32, 0.932) 71%,  #000c14 0%);
+    color: #fff;
+    height: 600px;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.box .welcome-note {
+    padding: 200px 0;
+    text-align: center;
+}
+
+form {
+    padding: 30px;
+    margin: 20px 0
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 3px;
+}
+
+select {
+    width: 102%;
+    margin-bottom: 20px;
+    padding: 10px 3px;
+}
+
+input[type='submit'] {
+    width: 102%;
+    padding: 12px;
+    margin: 10px 0;
+    background: rgba(2, 41, 32, 0.932);
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-30 {
+    margin-top: 60px;
+}
+
