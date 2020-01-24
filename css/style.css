@@ -38,6 +38,16 @@ input {
     width: 100%;
     margin-bottom: 20px;
     padding: 10px 3px;
+    font-size: 16px;
+}
+
+input[type='text']:focus, input[type='email']:focus, input[type='password']:focus, select:focus {
+    background: rgb(223, 217, 217);
+    border: 3px solid #121518;
+    padding: 15px 4px;
+    color: #1a1f22;
+    outline: none;
+    font-size: 14px;
 }
 
 select {
@@ -50,12 +60,22 @@ input[type='submit'] {
     width: 102%;
     padding: 12px;
     margin: 10px 0;
-    background: rgba(2, 41, 32, 0.932);
+    background: rgba(3, 107, 83, 0.932);
     color: #fff;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 12px;
     border: none;
+    transition: transform 0.3s linear;
 }
+
+.box input[type="submit"]:hover, 
+    .box input[type="submit"]:active{
+        background: rgba(2, 41, 32, 0.932);
+        transform: scaleX(0.9);
+        color: #fff;
+
+    }
+    
 
 .text-center {
     text-align: center;
