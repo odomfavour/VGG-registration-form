@@ -85,3 +85,13 @@ input[type='submit'] {
     margin-top: 60px;
 }
 
+@media screen and (max-width: 700px){
+    .disappear {
+        display: none;
+    }
+
+    .box {
+        width: 100%
+    }
+}
+
